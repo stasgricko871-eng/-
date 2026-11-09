@@ -45,3 +45,27 @@ npx tsx serve_game.ts
 python -m http.server 3000 --directory dist
 ```
 И откройте `http://localhost:3000` в браузере.
+
+---
+
+## 📱 Запуск на телефоне через Termux (Android)
+
+1. Установите Node.js в Termux:
+```bash
+pkg update && pkg install nodejs-lts
+```
+2. Разрешите доступ к файлам телефона:
+```bash
+termux-setup-storage
+```
+3. Перейдите в папку с игрой (например, если скачали в Загрузки):
+```bash
+cd /sdcard/Download/<имя_папки>
+```
+4. Запустите игру:
+```bash
+sh start_termux.sh
+```
+*(Или вручную: `npm install` затем `npm run dev -- --host`)*
+5. Откройте любой браузер на телефоне (Chrome, Brave, Яндекс) и перейдите по адресу:
+👉 **`http://localhost:3000`**
