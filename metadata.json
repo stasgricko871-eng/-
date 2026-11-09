@@ -1,0 +1,6 @@
+{
+  "name": "Deltarune: Meow Meow Last Chance",
+  "description": "Deltarune Chapter 5 fan roguelike game featuring Mad Mew Mew (Pink the cat girl). Launch Isaac Dr. Fetus-style sliding bombs with cross explosions, upgrade stats via JSON progression, and unlock new weapons every 10 waves.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,106 @@
+{
+  "currency": 250,
+  "highestWave": 0,
+  "totalMiceDefeated": 0,
+  "totalRuns": 0,
+  "selectedWeapon": "default_fetus",
+  "statUpgrades": {
+    "speed": {
+      "level": 0,
+      "maxLevel": 5,
+      "baseCost": 100,
+      "costMultiplier": 1.5,
+      "valuePerLevel": 20,
+      "nameRu": "Скорость кошки",
+      "nameEn": "Cat Agility",
+      "descRu": "+20 к скорости бега за уровень"
+    },
+    "damage": {
+      "level": 0,
+      "maxLevel": 5,
+      "baseCost": 120,
+      "costMultiplier": 1.6,
+      "valuePerLevel": 18,
+      "nameRu": "Урон бомбы фетуса",
+      "nameEn": "Fetus Bomb Damage",
+      "descRu": "+18 к базовому урону крестового взрыва"
+    },
+    "radius": {
+      "level": 0,
+      "maxLevel": 5,
+      "baseCost": 140,
+      "costMultiplier": 1.6,
+      "valuePerLevel": 1,
+      "nameRu": "Радиус крестового взрыва",
+      "nameEn": "Cross Blast Radius",
+      "descRu": "+1 клетка к длине взрыва по кресту"
+    },
+    "resistance": {
+      "level": 0,
+      "maxLevel": 5,
+      "baseCost": 110,
+      "costMultiplier": 1.5,
+      "valuePerLevel": 0.12,
+      "nameRu": "Защита от своих бомб",
+      "nameEn": "Self-Damage Resistance",
+      "descRu": "-12% урона самой себе от собственных взрывов"
+    },
+    "launchSpeed": {
+      "level": 0,
+      "maxLevel": 5,
+      "baseCost": 90,
+      "costMultiplier": 1.4,
+      "valuePerLevel": 35,
+      "nameRu": "Импульс скольжения (Фетус)",
+      "nameEn": "Fetus Slide Velocity",
+      "descRu": "+35 к начальной скорости скольжения бомбы"
+    }
+  },
+  "weaponMilestones": [
+    {
+      "id": "default_fetus",
+      "waveRequired": 0,
+      "unlocked": true,
+      "name": "Standard Dr. Fetus Bomb",
+      "nameRu": "Стандартный Бомбомёт Фетуса",
+      "descRu": "Классическая бомба из Айзека: скользит по полу и взрывается крестом",
+      "icon": "💣"
+    },
+    {
+      "id": "laser_remote_10",
+      "waveRequired": 10,
+      "unlocked": false,
+      "name": "Wave 10: Remote Laser Bomb",
+      "nameRu": "Волна 10: Лазерная Радио-Бомба",
+      "descRu": "Мгновенно взрывается при контакте с мышью или повторном нажатии атаки!",
+      "icon": "⚡"
+    },
+    {
+      "id": "cluster_kitten_20",
+      "waveRequired": 20,
+      "unlocked": false,
+      "name": "Wave 20: Cluster Mew Mew Bomb",
+      "nameRu": "Волна 20: Кластерная Мяу-Бомба",
+      "descRu": "При взрыве крестом выбрасывает 4 диагональные мини-бомбы!",
+      "icon": "🐾"
+    },
+    {
+      "id": "homing_kitty_30",
+      "waveRequired": 30,
+      "unlocked": false,
+      "name": "Wave 30: Homing Kitty Fetus",
+      "nameRu": "Волна 30: Самонаводящийся Кошачий Фетус",
+      "descRu": "Скользящая бомба подруливает к ближайшей кибер-мышке!",
+      "icon": "🐱"
+    },
+    {
+      "id": "hyperbeam_cross_40",
+      "waveRequired": 40,
+      "unlocked": false,
+      "name": "Wave 40: Hyperbeam Cross Bomb",
+      "nameRu": "Волна 40: Гиперлучевая Бомба",
+      "descRu": "Крест прошивает ВСЮ арену от края до края и оставляет плазменный след!",
+      "icon": "✨"
+    }
+  ]
+}
